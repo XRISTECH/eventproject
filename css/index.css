@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap');
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  scroll-behavior: smooth;
+  /* overflow-x: hidden; */
+}
+
+.logo {
+  width: 8rem;
+}
+
+.img2 {
+  object-fit: cover;
+}
+
+.cont {
+  overflow-x: hidden;
+  background-image: url(../img/pexels-francesco-ungaro-998641.jpg);
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+
+.add {
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 30px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.navbar {
+  /* margin-top: 30px; */
+  background-color: black;
+  height: 100px;
+}
+
+.navbar-nav ul li a {
+  color: white;
+}
+
+.carousel-caption {
+  margin-bottom: 4rem;
+}
+
+.carousel-caption h2 {
+  font-size: 70px;
+  text-transform: capitalize;
+  font-weight: bold;
+
+}
+
+.carousel-caption button {
+  background-image: linear-gradient(to left, burlywood, white);
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  transition: 0.6s ease;
+
+}
+
+.carousel-caption button a {
+  color: white;
+  text-decoration: none;
+}
+
+.carousel-caption button:hover {
+  background-color: burlywood;
+}
+
+.carousel-item img {
+  background-size: cover;
+
+}
+
+.com {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  color: #126e4f;
+  font-size: 3em;
+  margin-bottom: 40px;
+  padding: 0px;
+  animation: slide-up 1s ease;
+}
+
+.inner {
+  overflow: hidden;
+}
+
+@keyframes slide-up {
+  0% {
+    transform: TranslateY(250px)
+  }
+
+  100% {
+    transform: TranslateY(0px)
+  }
+}
+
+#border {
+  width: 100%;
+}
+
+.box {
+  width: 30%;
+  height: 500px;
+  background-color: burlywood;
+}
+
+.box p {
+  margin-top: 100px;
+  color: white;
+  font-size: 25px;
+}
+
+.pi {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../img/ibrahim-boran-m8YjB0noWiY-unsplash.jpg);
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background-size: cover;
+
+
+
+}
+
+.subhero {
+
+  background-color: burlywood;
+  color: #fff;
+
+}
+
+#ib img {
+  width: 100%;
+  height: 350px;
+}
+
+.boox {
+  background-color: white;
+}
+
+.boox-text {
+  margin-top: 70px;
+}
+
+.boox-text button {
+  width: 120px;
+  height: 30px;
+  background-image: linear-gradient(to left, burlywood, white);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  align-items: center;
+}
+
+.container {
+  padding: 50px;
+}
+
+.ab {
+  background-color: burlywood;
+  height: 600px;
+  width: 700px;
+  margin: 5% auto;
+  padding: 20px;
+  border: none;
+  position: relative;
+}
+
+.box {
+  background-color: rgb(15, 9, 9);
+  height: 6vh;
+  margin-top: 1rem;
+  width: 50%;
+}
+
+.logounder {
+  margin-left: -20rem;
+}
+
+.border {
+  width: 30%;
+  height: 300px;
+  background-color: burlywood;
+  margin-left: 500px;
+}
+
+@media only screen and(max-width:800px) {
+  .box {
+    width: 10%;
+    height: auto;
+    margin-left: 20rem;
+    margin-right: auto;
+  }
+
+  .pi {
+    height: 20%;
+
+  }
+
+}
+
+#footer {
+  width: 100%;
+  height: 300px;
+  background-color: black;
+  color: white;
+  /* text-align: center; */
+  padding-top: 50px;
+}
+
+.contact {
+  border-right: 1px solid white;
+  height: 50px;
+
+}
+
+.icon a {
+  color: #fff;
+}
+
+.bt {
+  background-image: linear-gradient(to left, burlywood, white);
+  color: white;
+  width: 200px;
+  height: 50px;
+  border: none;
+  text-align: center;
+}
+
+.bt a {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width:800px) {
+  #footer {
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+  }
+
+  .contact {
+    border-bottom: 1px solid white;
+    border-right: none;
+  }
+}
+
+.chat-bar-collapsible {
+  position: fixed;
+  bottom: 0;
+  right: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.collapsible {
+  background-color: burlywood;
+  color: #fff;
+  color: pointer;
+  padding: 18px;
+  width: 350px;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  border-radius: 10px 10px 0px 0px;
+  border: 3px solid white;
+  border-bottom: none;
+}
+
+.content{
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+.full-chat-block {
+  width: 350px;
+  background: white;
+  text-align: center;
+  overflow: auto;
+  scrollbar-width: none;
+  height: max-content;
+  transition: max-height 0.5s ease-out;
+
+}
+
+.outer-container {
+  min-height: 500px;
+  /* background-color: white; */
+  bottom: 0%;
+  position: relative;
+}
+
+.chat-container {
+  max-height: 500px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  scroll-behavior: smooth;
+  hyphens: auto;
+}
+
+.chat-container::-webkit-scrollbar {
+  display: none;
+}
+
+.chat-bar-input-block {
+  display: flex;
+  float: left;
+  box-sizing: border-box;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  background-color: #000;
+  border-radius: 10px 10px 0px 0px;
+  padding: 10px 0px 10px 10px;
+}
+
+.chat-bar-icons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 25%;
+  float: right;
+  font-size: 20px;
+}
+
+#chat-icon:hover {
+  opacity: 7;
+}
+
+#userInput {
+  width: 75%;
+}
+
+.input-box {
+  float: left;
+  border: none;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  outline: none;
+}
+
+.userText {
+  color: white;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: right;
+  clear: both;
+}
+
+.userText span {
+  line-height: 1.5em;
+  display: inline-block;
+  background: #5ca6fa;
+  padding: 10px;
+  border-radius: 8px;
+  border-bottom-left-radius: 2px;
+  max-width: 10px;
+  margin-right: 10px;
+  animation: floatup .5s forwards;
+
+}
+
+.botText {
+  color: #000;
+  font-weight: normal;
+}
+
+.botText span {
+  line-height: 1.5em;
+  display: inline-block;
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 8px;
+  border-bottom-left-radius: 2px;
+  max-width: 80%;
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  animation: floatup .5 forwards;
+}
+
+@keyframes floatup {
+  from {
+    transform: translateY(14px);
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .full-chat-block {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .chat-bar-collapsible {
+    position: fixed;
+    bottom: 0;
+  }
+
+  .collapsible {
+    width: 100%;
+    border: 0px;
+    border-top: 3px solid white;
+    border-radius: 0px;
+  }
+
+}
